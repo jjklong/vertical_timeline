@@ -4,11 +4,26 @@ html{
 
 body{
   background-color: white;
-  width: 800px;
-  height: 800px;
   font-family: 'Lato', sans-serif;
 }
 
+
+
+
+/*MAIN CONTENT WRAPPER*/
+.wrapper{
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+
+/*DATE*/
+.date{
+  width: 150px;
+  margin: 2px;
+
+}
 
 .timestamp{
   font-size: 46px;
@@ -20,4 +35,29 @@ body{
 
 .timestamp .even {
   color: #3594cb;
+}
+
+.contentoutline{
+  width: 400px;
+  padding: 0 0 0 20px;
+  margin: 0 0 auto auto;
+}
+
+.contentoutline h2{
+  color: white;
+  font-size: 28px;
+}
+
+.contentoutline p{
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.odd_textbox{
+  background-color: #6cbfee;
+}
+
+.even_textbox{
+  background-color: #3594cb;
 }
