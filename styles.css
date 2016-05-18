@@ -15,6 +15,7 @@ body{
   width: 600px;
   margin: 20px auto;
   padding: 10px;
+  position: relative;
 }
 
 
@@ -22,11 +23,16 @@ body{
 .date{
   width: 150px;
   margin: 2px;
-
+  font-size: 0.8em;
+  color: #bdd0db;
+  display: inline-block;
 }
 
 .timestamp{
   font-size: 46px;
+  width: 150px;
+  margin: 1px;
+  display: inline-block;
 }
 
 .timestamp .odd {
@@ -37,10 +43,11 @@ body{
   color: #3594cb;
 }
 
+
+/*MAIN CONTENT*/
 .contentoutline{
   width: 400px;
-  padding: 0 0 0 20px;
-  margin: 0 0 auto auto;
+  display: inline-block;
 }
 
 .contentoutline h2{
@@ -56,8 +63,35 @@ body{
 
 .odd_textbox{
   background-color: #6cbfee;
+  padding: 2.2em;
+  border-radius: 5px;
+  margin: 2em;
 }
 
 .even_textbox{
   background-color: #3594cb;
+  padding: 2.2em;
+  border-radius: 5px;
+  margin: 2em;
 }
+
+hr{
+  border: 0;
+  border-bottom: 1px solid white;
+  opacity: .4;
+}
+
+.icons{
+  width: 10px;
+  margin: 10px;
+  font-size: 0.8em;
+  color: #bdd0db;
+  display: inline-block;
+}
+
+/*TIMELINE*/
+/*.timeline{
+  width: 10px;
+  height: 50px;
+  background-color: #6cbfee;
+}*/
