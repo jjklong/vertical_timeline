@@ -1,0 +1,23 @@
+html{
+  font-size: 1em;
+}
+
+body{
+  background-color: white;
+  width: 800px;
+  height: 800px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.timestamp{
+  font-size: 46px;
+}
+
+.timestamp .odd {
+  color: #6cbfee;
+}
+
+.timestamp .even {
+  color: #3594cb;
+}
