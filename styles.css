@@ -12,67 +12,93 @@ body{
 
 /*MAIN CONTENT WRAPPER*/
 .wrapper{
-  width: 600px;
+  width: 800px;
   margin: 20px auto;
   padding: 10px;
   position: relative;
 }
 
 
-/*DATE*/
+
+/*DATE & TIME*/
+.left{
+  position: relative;
+}
+
 .date{
   width: 150px;
-  margin: 2px;
   font-size: 0.8em;
   color: #bdd0db;
-  display: inline-block;
+  position: absolute;
+  text-align: right;
+}
+
+.space{
+  margin: 2% 0 40% 0;
 }
 
 .timestamp{
   font-size: 46px;
   width: 150px;
-  margin: 1px;
-  display: inline-block;
+  position: absolute;
+  text-align: right;
+  border-right: solid #afdcf8;
+  padding-right: 6%;
+  border-width: 10px;
 }
 
-.timestamp .odd {
+.timestamp > .odd {
   color: #6cbfee;
 }
 
-.timestamp .even {
+.timestamp > .even {
   color: #3594cb;
+}
+
+/*ICONS*/
+
+.icons{
+  max-width: 100%;
+  padding: 1.5%;
+  color: white;
+  background-color: #46a4da;
+  border: solid #afdcf8;
+  border-width: thick;
+  border-radius: 100px;
+  display: inline-block;
+  position: absolute;
 }
 
 
 /*MAIN CONTENT*/
 .contentoutline{
-  width: 400px;
-  display: inline-block;
+  color: white;
+  position: absolute;
+  padding-left: 30%;
+
 }
 
 .contentoutline h2{
-  color: white;
   font-size: 28px;
 }
 
 .contentoutline p{
   font-size: 20px;
   font-weight: 300;
-  color: white;
 }
 
 .odd_textbox{
   background-color: #6cbfee;
   padding: 2.2em;
   border-radius: 5px;
-  margin: 2em;
+  margin: 0 1em 2em 1em;
 }
 
 .even_textbox{
   background-color: #3594cb;
   padding: 2.2em;
   border-radius: 5px;
-  margin: 2em;
+  margin: 0 1em 2em 1em;
 }
 
 hr{
@@ -81,13 +107,11 @@ hr{
   opacity: .4;
 }
 
-.icons{
-  width: 10px;
-  margin: 10px;
-  font-size: 0.8em;
-  color: #bdd0db;
-  display: inline-block;
-}
+
+
+
+
+
 
 /*TIMELINE*/
 /*.timeline{
