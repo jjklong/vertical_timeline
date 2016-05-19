@@ -33,9 +33,21 @@ body{
   text-align: right;
 }
 
-.space{
-  margin: 2% 0 40% 0;
+p.one{
+  margin: 0 0 0 0;
 }
+p.two{
+  margin: 380px 0 0 0;
+}
+p.three{
+  margin: 0 0 0 0;
+}
+
+
+
+                  /*  TRIED FIRST.space{
+                      margin: 2% 0 40% 0;
+                      }*/
 
 .timestamp{
   font-size: 46px;
@@ -54,6 +66,21 @@ body{
 .timestamp > .even {
   color: #3594cb;
 }
+
+p#one.odd {
+  line-height: 1em;
+  padding-top: 9%;
+}
+p#two.even {
+  line-height: 1em;
+  padding-top: 360px;
+}
+p#three.odd {
+  line-height: 1em;
+  padding-top: 9%;
+}
+
+
 
 /*ICONS*/
 
