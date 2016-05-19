@@ -40,7 +40,19 @@ p.two{
   margin: 380px 0 0 0;
 }
 p.three{
-  margin: 0 0 0 0;
+  margin: 255px 0 0 0;
+}
+p.four{
+  margin: 413px 0 0 0;
+}
+p.five{
+  margin: 295px 0 0 0;
+}
+p.six{
+  margin: 275px 0 0 0;
+}
+p.seven{
+  margin: 255px 0 0 0;
 }
 
 
@@ -73,11 +85,28 @@ p#one.odd {
 }
 p#two.even {
   line-height: 1em;
-  padding-top: 360px;
+  padding-top: 350px;
 }
 p#three.odd {
   line-height: 1em;
-  padding-top: 9%;
+  padding-top: 220px;
+}
+p#four.even {
+  line-height: 1em;
+  padding-top: 380px;
+}
+p#five.odd {
+  line-height: 1em;
+  padding-top: 260px;
+}
+p#six.even {
+  line-height: 1em;
+  padding-top: 243px;
+}
+p#seven.odd {
+  line-height: 1em;
+  padding: 220px 0 332px 0;
+  border-radius: 50%;
 }
 
 
@@ -86,7 +115,7 @@ p#three.odd {
 
 .icons{
   max-width: 100%;
-  padding: 1.5%;
+  padding: 6.5%;
   color: white;
   background-color: #46a4da;
   border: solid #afdcf8;
@@ -94,7 +123,10 @@ p#three.odd {
   border-radius: 100px;
   display: inline-block;
   position: absolute;
+  margin: -20px 0 0 31px;
 }
+
+
 
 
 /*MAIN CONTENT*/
